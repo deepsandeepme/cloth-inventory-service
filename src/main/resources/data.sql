@@ -1,0 +1,37 @@
+INSERT INTO BRANDS VALUES 
+(101, 'LEVI'), (102, 'LOUIS'),(103, 'LEVI'), (104, 'ALLEN SOLLY');
+
+INSERT INTO CLOTHES VALUES 
+(201, 'Shirt'), (202, 'Jeans'), (203, 'Pant'), (204, 'T-Shirt');
+
+INSERT INTO BRAND_CLOTHES VALUES
+(101, 201, 399.99),
+(102, 201, 201.99),
+(101, 202, 49.99),
+(103, 203, 175.99);
+
+INSERT INTO BRAND_CLOTHES_PROPERTIES VALUES
+(101, 201, 'RED', 'S'),
+(101, 201, 'GREEN', 'M'),
+(101, 201, 'GREEN', 'S'),
+(101, 201, 'RED', 'M'),
+(101, 201, 'RED', 'L'),
+(101, 201, 'BLUE', 'S'),
+(102, 201, 'RED', 'XL'),
+(102, 202, 'GREEN', 'M'),
+(102, 201, 'GREEN', 'L'),
+(102, 203, 'BLUE', 'L'),
+(102, 201, 'ORANGE', 'L'),
+(102, 202, 'SORANGE', 'S'),
+(103, 201, 'RED', 'S'),
+(103, 201, 'GREEN', 'M'),
+(103, 204, 'GREEN', 'S'),
+(103, 201, 'RED', 'M'),
+(103, 201, 'RED', 'L'),
+(103, 201, 'BLUE', 'S'),
+(104, 201, 'RED', 'XL'),
+(104, 204, 'GREEN', 'M'),
+(104, 201, 'GREEN', 'S'),
+(104, 203, 'RED', 'L'),
+(104, 201, 'YELLOW', 'L'),
+(104, 202, 'BLUE', 'S');
